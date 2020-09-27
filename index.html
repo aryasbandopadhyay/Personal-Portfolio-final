@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
 
+<!DOCTYPE HTML>
+<html>
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Arya Sekhar Bandopadhyay</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<title>Arya Sekhar Bandopadhyay</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
@@ -44,1222 +21,977 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="Arya Sekhar Bandopadhyay, Software Developer, Data Scientist" />
+<!-- webfonts -->
+	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<!-- webfonts -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
 </head>
-
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
-        </div>
-
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Education and Experience</a></li>
-                <li><a class="smoothscroll"  href="#blog" title="blog">Works</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-            </ul>
-        </nav>
-
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/arya.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Hello There</h3>
-
-                <h1>
-                    I am Arya Sekhar Bandopadhyay. <br></h1>
-                    <p id="me">Data Science/Machine Learning/Deep Learning  <br>
-                    BlockChain/MEAN Stack/Beta-MSP/Tech Lead-MSPC SRM
-                    </p>
-
-                <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
-                        Latest Projects
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
-                    </a>
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li>
-                <a href="https://www.facebook.com/arya.banerjee.35"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            
-            <li>
-                <a href="https://www.instagram.com/aryasbandopadhyay/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="https://api.whatsapp.com/send?phone=918617020804&text=Thank%20you%20for%20connecting%20%21&source=&data=&app_absent="><i class="im im-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
-            </li>
-            
-            <li>
-                <a href="https://www.github.com/aryasbandopadhyay"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/arya-sekhar-bandopadhyay-0aa9ba172/"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
-            </li>
-            
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-        
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
-                <p class="lead"></p>
-            </div>
-        </div>
-
-        <div class="row about-content">
-
-            <div class="col-six tab-full left">
-                <h3>Howdy!</h3>
-
-                <p>I am a 3rd year B.Tech Undergraduate from SRM Institute of Science and Technology. Regarding Data Science, I have attended Winter School on Data Science with Python and that’s where my work started. I have completed IBM Professional Data Science Certification from Coursera. I have relative experience working with Tableau, Power BI, Python and Visualizations using Matplotlib, Seaborn, Folium and Plotly. I have created Dashboards in Tableau.
-
-                    I have worked with Regression models and stock market analysis using LSTM memory units. I have worked with backend Log files in my Internships to find meaningful patterns and Visualize them using Highcharts. I am thorough in Statistical models and Hypothesis Tests. I have worked as a Data Science Intern in kaashiv Infotech performing customer clustering, and OVONTS performing log file analysis and customer purchase behavior Analysis.
-
-                </p>
-                <p>I am Currently Working For RedFox Labs in collaboration with top tier companies for a statistical site as well as for game research and developement. Parallely I am working on a blockchain based project under UP Govt Police. </p>
-                    <p>
-                        I have worked on a lot of projects in Image Processing and I am quite familiar with objects detection approaches as well as image augmentation processes using Open CV. I have worked with GAN for Image Generation. Recently I have worked with Image classification approaches in real world to create a full stack application for automatic detection and segregation of garbage type for Smart India Hackathon. I am familiar with CNN architectures and optimizers and different loss functions and also with Transfer Learning approaches. I have some expertise working with Natural Language Processing and Natural Language Generation as well. I have worked on small projects like Email Spam classifier, Text Summarizer, Text Parsers and Image Caption Generators. I am familiar with Stochastic as well as Rule Based Approaches. I have relative Knowledge about BlockChain System including SHA256 hashing technique, Distributed P2P Networks and the Consensus principles. Relatively familier with Nonces and Cryptocurrencies including Bitcoin and Etherium.	
-                </p>
-            </div>
-
-            <div class="col-six tab-full right">
-                <h3>I've Got Some skills.</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Image Processing</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Natural Language Processing</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>Data Science</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Tableau</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Power BI</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Visualizations and Dashboard</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Python and Flask</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent70"><span>70%</span></div>
-                        <strong>React</strong>
-                        </li> 
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>Javascript</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Databases</strong>
-                    </li>   
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li> 
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Blockchain</strong>
-                    </li>   
-                </ul>
-            </div>
-
-        </div> <!-- end about-content -->
-
-        <div class="row about-content about-content--buttons">
-
-            <div class="col-six tab-full left">
-                <a href="https://drive.google.com/file/d/1G4mcX8IVDeqN1Pw0j_zHxUeZ0sjbw26O/view?usp=sharing" class="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div class="col-six tab-full right">
-                <a href="#contact" class="btn full-width">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
-
-        <div class="row about-content about-content--timeline">
-
-            <div class="col-full text-center">
-                <h3>My Work Experience and Education.</h3>
-            </div>
-
-            <div class="col-full tab-full left">
-                <div class="timeline">
-
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">May 2020 - Present</p>
-                            <h3>Dataly</h3>
-                            <h5>CEO and Co-Founder</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Working with Like minded people and moving forward with our innovative Blockchain based Business Model.
-
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">June 2020 - Present</p>
-                            <h3>RedFox Labs</h3>
-                            <h5>Game Researcher</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Working on ground research of games and performing its user attribute analysis in collaboration with top Game Developing firms.
-
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">March 2020 - Present</p>
-                            <h3>RedFox Labs</h3>
-                            <h5>BlockChain and Data Analytics</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Working on Statistical Site including its UI, Data analysis and Integration in collaboration with top tier companies.
-
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">Feb 2020 - Present</p>
-                            <h3>SRMIST in Collaboration with UP Police</h3>
-                            <h5>BlockChain Researcher</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Working on ground research of Blockchain and hyper ledger networks and using public sourcing powers to harness productive apps.
-
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">Jan 2020 - Present</p>
-                            <h3>SRM Research Lab</h3>
-                            <h5>Deep Learning Researcher</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Actively working with faculties and facilitating research work. Presented Paper on Hotsopt Ananlysis using Unsupervised Learning and won Best Paper Award 
-
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">November 2019 - January 2020</p>
-                            <h3>Ovonts</h3>
-                            <h5>Full Stack Developer Intern</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Performed analysis on log files and created a dynamic Dashboard using Angular JS and Highcharts.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">June 2019 - July 2019</p>
-                            <h3>Kaashiv Infotech</h3>
-                            <h5>Data Science Intern</h5>
-                        </div>
-                        <div class="timeline__desc">	
-                            <p>Performed clustering to target right purchase based customers </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">January 2019 - Present</p>
-                            <h3>Microsoft Student Partners Club</h3>
-                            <h5>Technical Lead</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Worked on Outsourcing projects and managed my team. Conducted numerous workshops.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">2018 - 2019</p>
-                            <h3>Next Tech Research lab</h3>
-                            <h5>Machine Learning Associate</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Worked on hackathons and Projects and did freelancing works for startups.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">November 2018 - January 2019</p>
-                            <h3>MyWbut</h3>
-                            <h5>Machine Learning Trainee</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Performed EDA on datasets provided to find insights.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-                    
-
-                </div> <!-- end timeline -->
-            </div> <!-- end right -->
-
-        </div> <!-- end about-content timeline -->
-
-    </section> <!-- end about -->
-    
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Portfolio</h3>
-                <h1>See My Latest Projects.</h1>
-                
-                <p class="lead">My Projects in Machine Learning, Deep Learning, AI and BlockChains.</p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Chatbot" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                ChatBot
-                            </h3>
-                            <p class="item-folio__cat">
-                                Natural Language Processing <br>
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>An informal Chatbot using Tensorflow 1.14. Built on Reddit dataset. <br>
-                            <a href="https://www.github.com/aryasbandopadhyay/Chatbot-rnn">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="RecommenderSystem" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Recommender System
-                            </h3>
-                            <p class="item-folio__cat">
-                                Stacked Autoencoder
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>State of the art Recommender System built using Stacked Autoencoders<br>
-                            <a href="https://www.github.com/aryasbandopadhyay/Recommender-System-using-stacked-Autoencoders">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Dashboard" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Dashboard
-                            </h3>
-                            <p class="item-folio__cat">
-                                Data Analysis and Web Developement
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>An Informative Dashboard built using Python and Flask and HTML5 and CSS. Give latest stats about COVID19 as well as Health Centres Location and Latest Global and Local News.<br>
-                            <a href="https://suraksha-info.herokuapp.com/">Project Link</a></p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Object Detection" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Object Detection and Localization
-                            </h3>
-                            <p class="item-folio__cat">
-                                Image Processing
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Used YOLO algorithm for Object Detection and Localization<br>
-                            <a href="hhts://github.com/aryasbandopadhyay/Yolo-Detection">Project Link</a></p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="DrowsinessDetection" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Drowsiness Detection
-                            </h3>
-                            <p class="item-folio__cat">
-                                Image Processing
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Drowsiness Detection For accident avoidance using Image Processing Techniques
-                                <br><a href="https://github.com/aryasbandopadhyay/Drowsiness-Detection">Project Link</a>
-                            </p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="gan" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Image Generator
-                            </h3>
-                            <p class="item-folio__cat">
-                                Image Processing
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Mnist Digit Generator using Generative Adversarial Network<br>
-                            <a href="https://www.github.com/aryasbandopadhyay/GAN-on-MNIST">Project Link</a></p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="textsumm" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Text Summarizer
-                            </h3>
-                            <p class="item-folio__cat">
-                                Natural Language Processing
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Text summarizer built with SOTA Models and using Tensorflow seq2seq.
-                                <br><a href="https://github.com/aryasbandopadhyay/text-summarizer">Project Link</a>
-                            </p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="BlockChain" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Basic BlockChain Network
-                            </h3>
-                            <p class="item-folio__cat">
-                                BlockChains
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Basic BlockChain with all its properties and principles applied in Python.
-                                <a href="https://github.com/aryasbandopadhyay/MyFirstBlockChain">Project Link</a>
-                            </p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Chatbot" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                A simple games based on JQuery
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Developement <br>
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>A Simple Game based on HTML5, CSS and Jquery and its animations <br>
-                            <a href="https://github.com/aryasbandopadhyay/Fruits-Game-HTML">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Chatbot" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                GAN Implementation In Keras
-                            </h3>
-                            <p class="item-folio__cat">
-                                Image Processing <br>
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Different Types of GAN implemented in Keras <br>
-                            <a href="https://github.com/aryasbandopadhyay/GAN-in-Keras">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Chatbot" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Drawing App using HTML canvas
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Developement <br>
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>A simple drawing app using HTML canvas , JavaScript <br>
-                            <a href="https://github.com/aryasbandopadhyay/Drawing-App-HTML-Canvas">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/Common Project Template.jpg" class="thumb-link" title="Chatbot" data-size="1050x700">
-                                <img src="images/portfolio/Common Project Template.jpg" 
-                                     srcset="images/portfolio/Common Project Template.jpg 1x, images/portfolio/Webp.net-resizeimage.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Diabetes Prediction Interface
-                            </h3>
-                            <p class="item-folio__cat">
-                                Machine Learning <br>
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>A web Interface to predict diabetes based on ones symptoms</p> <br>
-                            <a href="https://github.com/aryasbandopadhyay/Diabetes-Prediction-Web-Interface">Project Link</a></p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end works -->
-    <!-- <div>
-        <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <a href="./images/achievements/WhatsApp Image 2020-06-13 at 16.23.25.jpeg">
-                  <img src="./images/achievements/WhatsApp Image 2020-06-13 at 16.23.25.jpeg" alt="surakshacovid" style="width:30% padding:20px">
-                  <div class="caption">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <a href="/w3images/nature.jpg">
-                  <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-                  <div class="caption">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <a href="/w3images/fjords.jpg">
-                  <img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
-                  <div class="caption">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-    </div> -->
-
-
-
-    <!-- testimonials
-    ================================================== -->
-    <div class="s-testimonials">
-
-        <div class="overlay"></div>
-
-        <div class="row testimonials-header">
-            <div class="col-full">
-                <h1 class="h02">Highlights.</h1>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="index.html"><span>Arya</span> Sekhar</a></h1>
+						
+
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+								<li><a class="scroll" data-hover="Services" href="#services" >Services</a></li>
+								<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+								<li><a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a></li>
+								<li><a class="scroll" data-hover="Blog" href="#blogs">Books & Courses</a></li>
+								<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+				<div class="col-md-7 header-right">
+					<h1>Hi !</h1>
+					<h6>Software Development Engineer</h6>
+					<ul class="address">
+					
+					<li>
+							<ul class="address-text">
+								<li><b>NAME</b></li>
+								<li>I'M ARYA SEKHAR BANDOPADHYAY</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>D.O.B</b></li>
+								<li>07-04-1998</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>PHONE </b></li>
+								<li>+91 8617020804</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>ADDRESS </b></li>
+								<li>Uttaran, Purbasha, Kulti, West Bengal, India, 713343</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:example@mail.com"> asbandopadhyay@yahoo.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>RESUME </b></li>
+								<li><a href="http://tinyurl.com/asbandopadhyay">Portfolio and Achievements</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>LINKEDIN </b></li>
+								<li><a href="https://www.linkedin.com/in/arya-sekhar-bandopadhyay-0aa9ba172/">LinkedIn</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>FACEBOOK </b></li>
+								<li><a href="https://www.facebook.com/arya.banerjee.35/">Facebook</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>GITHUB </b></li>
+								<li><a href="http://github.com/aryasbandopadhyay">Github</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="col-md-5 header-left">
+					<img src="images/about.jpeg" alt="">
+				</div>
+				<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+		</div>
+	</div>
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Arya Sekhar</span></h2>
+											<p>Represented India in Google Hackathon finals | Directed the team on patented project – LoadAB | Engineered the
+												entire admin side @ Ovonts to grow it as the largest media management firm in Kolkata | Received media
+												appreciations for constructing and launching surakshacovid19.tech, a COVID19 dashboard | Worked in a consultancy
+												start up named Dataly and serving as its Head AI/Web Developer.</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Arya Sekhar</span></h2>
+											<p>An award-winning Software Development Expert specialized in developing and building highly complex software applictions with hands-on
+												expertise in ML algorithms, DS, Business Analytics, and Full Stack engineering to deliver best-in-class technical
+												solutions and drive business growth initiatives. A highly competent team leader capable of functioning efficiently in a fast-paced, deadline-driven
+												and dynamic work environment; </p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Arya Sekhar</span></h2>
+											<p>Highly recognized and interviewed by top news channels including Zee News for successfully constructing and launching surakshacovid19.tech | Secured top position in finals of Google Hackathon | Functioned as beta-Microsoft Student Partner | Currently leveraging technical expertise on a patented project
+											 | Received a funded project from UP Police Dept | Serving as a Technical Lead @ Microsoft Student Partners SRM and Machine Learning Associate @ Next Tech Lab</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>WHAT I DO</h4>
+						<h3>MY <span>SERVICES</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web Development</h4>
+						<p>MEAN Stack, MERN Stack, Python & Flask</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Data Analytics</h4>
+						<p>Python, R, Tableau, Power BI, SAS</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Artificial Intelligence and Machine Learning</h4>
+						<p>Tensorflow, Keras, Pytorch, Image Processing, Natural Language Processing</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Blockchain Development</h4>
+						<p>Etherium, Multichain, Azure Blockchain, Bitcoin</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>WHAT I DID</h4>
+						<h3>MY <span>EXPERIENCE</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>2021 (Probable)</li>
+								   <li>2020</li>
+								   <li>2020</li>
+								   <li>2020</li>
+								   <li>2020</li>
+								   <li>2020</li>
+								   <li>2020</li>
+								   <li>2019</li>
+								   <li>2019</li>
+								   <li>2018</li> 
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">GET, Barclays UK, 2021- Present</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Graduate Engineering Trainee at Barclays starting from June 21.</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Full Stack Intern, Gaius Networks, Chennai, 07/2020-10/2020</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Assembled production level solutions for the platform which served as a
+																		means to connect hyperlocal communities together; formed 10k active
+																		user base for the platform. Built highly-reliable and scalable products in full-stack; leveraged full
+																		advantage of its features and flexibility.</p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																	<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																	<div class="timeline-panel">
+																	  <div class="timeline-heading">
+																		<h4 class="timeline-title">Head React Developer, Dataly, Chennai, 05/2020-10/2020</h4>
+																	  </div>
+																	  <div class="timeline-body">
+																		<p>Designed complex and diverse projects including full scale apps and
+																			websites and provisions Analytics and AI solutions to companies.
+																			Participated in the execution of all development stages from
+																			concept, to deployment, to live website. </p>
+																	  </div>
+																	</div>
+																  </li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Game Development Intern, RedFox Labs, Vietnam, 03/2020-06/2020</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Performed scraping of relevant data regarding blockchain based
+																		games and helped them take data driven decisions.
+																		Created and maintained reliable, scalable, and high-performance
+																		systems and tools to enable best gameplay experiences.</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Blockchain Researcher, SRM Research Labs, SRMIST, Chennai, 03/2020-08/2020</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Conducted extensive research on some of the critical issues in
+																		building high performance blockchain platforms.
+																		Worked closely with the team to research, develop and test
+																		blockchain applications to enable efficient distributed system
+																		management solution. </p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Data Science Intern, RedFox Labs, Vietnam, 01/2020-06/2020</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Led research in the advanced areas of artificial intelligence, data mining,
+																		machine learning, and deep learning.
+																		Experimented with machine learning algorithms to solve critical business
+																		problems and identify risk, fraud or natural language processing.</p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																	<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																	<div class="timeline-panel">
+																	  <div class="timeline-heading">
+																		<h4 class="timeline-title">Machine Learning Researcher, SRM Research Labs, SRMIST, Chennai, 01/2020-08/2020</h4>
+																	  </div>
+																	  <div class="timeline-body">
+																		<p>Designed and developed robust and efficient machine-learning and
+																			deep-learning algorithms.
+																			Implemented machine learning methods drawn from diverse areas
+																			such as neural networks, deep learning, NLP and approximate
+																			inference. </p>
+																	  </div>
+																	</div>
+																  </li>
+																  <li>
+																	<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																	<div class="timeline-panel">
+																	  <div class="timeline-heading">
+																		<h4 class="timeline-title">Full Stack Intern, Ovonts, Kolkata, 11/2019-01/2020</h4>
+																	  </div>
+																	  <div class="timeline-body">
+																		<p>Delivered working and well-structured JavaScript code, including an
+																			API and modules like a UI framework, document object model, etc.
+																			Managed individual / team project priorities, deadlines and
+																			deliverables in an agile work environment.</p>
+																	  </div>
+																	</div>
+																  </li>
+																  <li>
+																	<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																	<div class="timeline-panel">
+																	  <div class="timeline-heading">
+																		<h4 class="timeline-title">Data Science Intern, Kaashiv Infotech, Chennai, 06/2019-07/2019</h4>
+																	  </div>
+																	  <div class="timeline-body">
+																		<p>Identified and collated datasets while creating and applying advanced
+																			data analytics models using statistical and machine learning techniques.
+																			Assisted and directed the team in day-to-day jobs and projects. </p>
+																	  </div>
+																	</div>
+																  </li>
+																  <li>
+																	<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																	<div class="timeline-panel">
+																	  <div class="timeline-heading">
+																		<h4 class="timeline-title">Machine Learning Trainee, MyWbut, Kolkata, 12/2018-01/2019</h4>
+																	  </div>
+																	  <div class="timeline-body">
+																		<p>Utilized big data analytics tools and applied analytical techniques for data
+																			retrieval, preparation, and discovery.
+																			Worked with massive datasets to develop both generic models as well as
+																			fine tune models. </p>
+																	  </div>
+																	</div>
+																  </li>
+																  
+																  
+
+																  
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+		<!-- portfolio -->
+		<div class="blog" id="port">
+			<div class="container">
+				<div class="service-head text-center">
+				<h4>Portfolio</h4>
+				<h3>MY <span>Projects</span></h3>
+				<span class="border one"></span>
+			</div>
+			   <div class="news-grid w3l-agile">
+				<div class="col-md-6 news-img">
+				  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/ai.jpg" alt=" " class="img-responsive"></a>
+				 
+				</div>
+				<div class="col-md-6 news-text">
+				   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Artificial Intelligence</a></h3>
+					<!-- <ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+					</ul> -->
+					<p><b>
+						<ul>
+							<li>Video Caption Generator</li>
+							<li>Twitter Sentiment Analysis</li>
+							<li>Resume Parser and Auditor</li>
+							<li>Garbage segregator and Collector</li>
+							<li>Drowsiness Detector</li>
+							<li>Keras GAN</li>
+							<li>Transfer Learning</li>
+							<li>Recommendation System using Boltzmann Machine and Stacked Autoencoder</li>
+							<li>Object Detection with YOLO and SSD</li>
+						</ul>
+				    
+				</b></p>
+					<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+			
+				</div>
+
+				<div class="clearfix"></div>
+			 </div>
+			  <div class="news-grid">
+				  <div class="col-md-6 news-img two">
+					<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/webdev.jpg" alt=" " class="img-responsive"></a>
+				  
+				 </div>
+
+				<div class="col-md-6 news-text two">
+				   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Full Stack Development</a></h3>
+					<!-- <ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+					</ul> -->
+					<p><b>
+					<ul>
+						<li>LoadAB Market Place for Raw Materials</li>
+						<li>Find ur Fix (Mentor Mentee app)</li>
+						<li>Resume Auditor</li>
+						<li>Suraksha Covid 19</li>
+						<li>Dataly Landing Page</li>
+						<li>Info-G App by Gaius and Flipped</li>
+						<li>McZone Landing Page</li>
+						<li>StatsBureau with RedFox Labs</li>
+						<li>Ovonts Admin Panel</li>
+					</ul>
+						</b></p>
+						<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+			
+				</div>
+				
+				<div class="clearfix"></div>
+			 </div>
+			  <div class="news-grid">
+				<div class="col-md-6 news-img">
+				  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/dsnew.jpg" alt=" " class="img-responsive"></a>
+				 
+				</div>
+				<div class="col-md-6 news-text">
+				   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Data Science Full Course Bundle by Data Science 365</a></h3>
+					<!-- <ul class="news">
+						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+					</ul> -->
+					<p><b>
+						<ul>
+							<li>Customer Turnover Clustering</li>
+							<li>Myntra Customer Segregation</li>
+							<li>Suraksha Covid 19</li>
+							<li>Covid Dashboard with Tableau</li>
+							<li>P&L Sheet with Power BI</li>
+							<li>Stock Market Prediction with LSTM</li>
+							<li>EDA on IPL Data</li>
+							<li>EDA on Denver Crime Data</li>
+							<li>Analysing Backend Log Files and API Pathways to analysing user browsing Behaviour</li>
+							<li>Diabetic Retinopathy</li>
+						</ul>
+					</b></p>
+					<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+			
+				</div>
+
+				<div class="clearfix"></div>
+			 </div>
+			</div>
+		</div>	<!-- //portfolio -->
+    <!-- top-grids -->
+				<div class="blog" id="blogs">
+					<div class="container">
+						<div class="service-head text-center">
+						<h4>Courses and Books</h4>
+						<h3>MY <span>Courses and Books which Helped me in my Career</span></h3>
+						<span class="border one"></span>
+					</div>
+					   <div class="news-grid w3l-agile">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/deeplearn1.png" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">DeepLearning.AI</a></h3>
+							<!-- <ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul> -->
+							<p>Taking the five courses is very instructive. The content is well structured and good to follow for everyone with at least a bit of an understanding on matrix algebra. Some experience in writing Python code is a requirement. The programming assignments are well designed in general. Apart of their instructive character, it’s mostly enjoyable to work on them, too. Finally, in my opinion, doing this specialization is a fantastic way to get you started on the various topics in Deep Learning. After taking the courses, you should know in which field of Deep Learning you wanna specialize further on</p>
+							<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
+						<div class="col-md-6 news-img two">
+							<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/nskmchi.jpg" alt=" " class="img-responsive"></a>
+						  
+						 </div>
+
+					    <div class="col-md-6 news-text two">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">DS and ALGO Made Easy by Narsimha Karumanchi</a></h3>
+							<!-- <ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul> -->
+							<p>Data Structure And Algorithmic Puzzles” is a book that offers solutions to complex data structures and algorithms. There are multiple solutions for each problem and the book is coded in C/C++, it comes handy as an interview and exam guide for computer scientists</p>
+								<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+					
+						</div>
+						
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/ds365.png" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Data Science Full Course Bundle by Data Science 365</a></h3>
+							<!-- <ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul> -->
+							<p>365 Data Science is a self-paced, online Data Science bootcamp. The flexible course schedule means there is no set time limit in which to complete the program by. The bootcamp is divided into four modules that cover data science fundamentals, programming, data science concepts, and specializations.</p>
+							<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+					
+						</div>
+		
+						<div class="clearfix"></div>
+						<div class="news-grid">
+							<div class="col-md-6 news-img two">
+							  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/angelayu.jpg" alt=" " class="img-responsive"></a>
+							 
+							</div>
+							<div class="col-md-6 news-text">
+							   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Web Developement Bootcamp and Flutter Bootcamp by Angela YU</a></h3>
+								<!-- <ul class="news">
+									<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+									<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+									<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+									<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+								</ul> -->
+								<p>I love her way of presenting and I love the humor that is hidden in many of her videos and takeaways. It just makes it fun!
+
+									There is a lot of creative videos inside. Angela has a really good way of teaching each lesson clearly. I love her teaching style, she adds just enough of humor to make it fun.</p>
+								<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+						
+							</div>
+							<div class="clearfix"></div>
+						<div class="news-grid">
+							<div class="col-md-6 news-img">
+							  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/dsalgoself.png" alt=" " class="img-responsive"></a>
+							 
+							</div>
+							<div class="col-md-6 news-text">
+							   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Data Structures and Algo Self Paced by Geeks For Geeks</a></h3>
+								<!-- <ul class="news">
+									<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+									<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
+									<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+									<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+								</ul> -->
+								<p>This course is a complete package that helps you learn Data Structures and Algorithms from basic to an advanced level. The course curriculum has been divided into 10 weeks where you can practice questions & attempt the assessment tests according to your own pace. The course offers you a wealth of programming challenges that will help you to prepare for interviews with top-notch companies like Microsoft, Amazon, Adobe etc.</p>
+								<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read More</a> -->
+						
+							</div>
+							<div class="clearfix"></div>
+					 </div>
+					</div>
+				</div>
+				</div>
+				<!-- top-grids -->
+	<!-- /blog-pop-->
+			<!-- <div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="images/b3.jpg" alt="about"/>
+										     <h4 class="tittle">A Fews words about us</h4>
+										   <p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida velit,Ming sits in the corner the whole day. She's into crochet. quis dolor tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. velit quis dolor tristiqumsan.</p>
+										    <p>Lorem ipsum dolor sit amet. Integer gravida velit quis dolor tristiqumsan.anteposuerit litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
+									  </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- //blog-pop-->
+
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>CONTACT ME</h4>
+						<h3>GET <span>IN TOUCH WITH ME</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<ul>
+							<li>Mail1: <a href="mailto:info@example.com">Arya.Bandopadhyay@studentambassadors.com</a></li>
+							<li>Mail2: <a href="mailto:info@example.com">asbandopadhyay@yahoo.com</a></li>
+						</ul>
+					</div>
+				</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>Contact By Phone</h4>
+							<ul>
+								<li>Phone: +91 861 702 0804</li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>Looking For Address</h4>
+							<ul>
+								<li>Address: Uttaran, Purbasha, Kulti</li>
+								<li>West Bengal, India, </li>
+								<li>Pin - 713343</li>
+								
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 mail_right">
+				<form action="mailto:asbandopadhyay@yahoo.com" method="post" enctype=”multipart/form-data”, name=”EmailForm”>
+					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+					<input type="submit" value="Send">
+					
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			<!-- <p>&copy; 2016 Preface . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p> -->
+			<p>&copy; 2020 | Design by <a href="#" target="_blank">Arya Sekhar Bandopadhyay</a></p>
+			 <!-- <ul class="social-icons two">
+							<li><a href="#" class =""> </a></li>
+							<li><a href="#" class="fb"> </a></li>
+							<li><a href="#" class="in"> </a></li>
+							<li><a href="#" class="dott"> </a></li>
+						</ul> -->
+		</div>
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
             </div>
         </div>
-
-        <div class="row testimonials">
-
-            <div class="col-full testimonials__slider">
-
-                <div class="testimonials__slide">
-                    <img src="images/portfolio/award-icon-png-48529-free-icons-library-award-icon-png-1292_1283.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Won Best Paper Award in International Conferance on IOT 2020 held in SRM.Paper was Titled Cyber Criminal Detection using hotspot analysis</p>
-                    <div class="testimonials__author h06">
-                        SRMIST
-                        <span>2020</span>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>LoadAB</h3>
+                        <img src="images/online-marketplaces-selling.png" class="img-responsive img-centered" alt="">
+                        <p>LoadAB is an online Marketplace for Raw Materials. It is built on MERN Stack. It is based on a community based marketplace with private and public communities as well as geofencing features.</p>
                     </div>
                 </div>
-                <div class="testimonials__slide">
-                    <img src="images/portfolio/award-icon-png-48529-free-icons-library-award-icon-png-1292_1283.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Received a funded project from UP Govt Police on News Verification using Blockchain</p>
-                    <div class="testimonials__author h06">
-                        SRMIST
-                        <span>2020</span>
-                    </div>
-                </div>
-                <div class="testimonials__slide">
-                    <img src="images/portfolio/award-icon-png-48529-free-icons-library-award-icon-png-1292_1283.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Received Internship offer from Vietnam based firm (RedFox Labs in collaboration with top tier companies)</p>
-                    <div class="testimonials__author h06">
-                        SRMIST
-                        <span>2020</span>
-                    </div>
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/portfolio/hyper-shot-1200x900-1-1200x900.png" alt="dash" class="testimonials__avatar">
-                    <p>Created an Interactive Dashboard on COVID19 issue with all the stats, Test centre locations as Well as trending global and local news. Earned laurels from news channels and papers across the country and were praised by MNC's like amazon and Google.</p>
-                    <div class="testimonials__author h06">
-                        COVID-19
-                        <span>2020</span>
-                    </div>
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/portfolio/award-icon-png-48529-free-icons-library-award-icon-png-1292_1283.jpg" alt="Author image" class="testimonials__avatar">
-                    <p>Took part in the Smart India Hackathon and Developed a system to take pictures of trash, potholes and stray cattles and auto segregate them. The segregated reports are then submitted to the govt. Earned kudos from all the judges present</p>
-                    <div class="testimonials__author h06">
-                        SIH
-                        <span>2019</span>
-                    </div>
-                </div>
-                
-            </div> <!-- end testimonials__slider -->
-
-        </div> <!-- end testimonials -->
-
-    </div> <!-- end s-testimonials -->
-
-
-    <!-- blog
-    ================================================== -->
-    <section id="blog" class="s-blog target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Proficiency</h3>
-                <h1>Online Courses</h1>
-                <p class="lead">Some of the online courses I undertook</p>
             </div>
         </div>
-
-        <div class="row blog-content">
-            <div class="col-full">
-
-                <div class="blog-list block-1-2 block-tab-full">
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">2019</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">Deep Learning Specialization</a></h2>
-                        <p>
-                        One of the most comprehensive courses in Coursera. Had Everythihg from Image Processing Techniques to Sequence Models.
-                        </p>
-
-                        <div class="blog-cat">
-                                <a href="">Deep Lerning</a><a href="">Coursera</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                                
-                        <div class="blog-date">
-                            <a href="blog-single.html">2020</a>
-                        </div>  
-                        
-                        <h2 class="h01"><a href="blog-single.html">Full Stack Web Developement</a></h2>
-                        <p>
-                        A very comprehensive 100 hours online course which included HTML, CSS. Bootstrap, Javascript, JQuery, Node js, MongoDB, MySql , etc. Followed a very ordered and step by step structure.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="">Web Developement</a><a href="">Coursera</a>
-                        </div>
-
-                        
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="">2020</a>
-                        </div>
-
-                        <h2 class="h01"><a href="">Data Science Bundle</a></h2>
-                        <p>
-                        This was an entire bundle provided by 365Datascience and included Python, SQL, Power BI, Tableau and Combining them to create Dashboards. Also Included courses on Web Scraping and Time Series Analysis, Customer Fraud Modelling etc. Had very comprehensive courses on Probability and Statistics.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Data Science</a><a href="blog.html">365DataScience</a>
-                        </div>
-                    </article>
-                    <article class="col-block">
-                        
-                        <div class="blog-date">
-                            <a href="blog-single.html">2020</a>
-                        </div>    
-                        <h2 class="h01"><a href="blog-single.html">BlockChain A-Z</a></h2>
-                        <p>
-                        A beginners course on BlockChain Networks with thorough explanation of principles like Hashing, Immutable Ledger, Nonces, Distributed p2p Networks, Byzentine Fault Tolerance, Consensus Protocols and also Proper description regarding Minimg of BitCoins and ASIC Architecture. 
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">BlockChain</a><a href="blog.html">Udemy</a>
-                        </div>
-                    </article>
-                </div> <!-- end blog-list -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end blog-content -->
-
-    </section> <!-- end s-blog -->
-
-
-    <!-- s-cta
-    ================================================== -->
-    <!-- <section class="s-cta">
-        
-        <div class="row narrow cta">
-
-            <div class="col-full cta__content">
-
-                <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
-
-                <p class="lead">
-                Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
-                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
-                </p>
-
-                <div class="cta__action">
-                    <a class="btn btn--primary btn--large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
-                </div>	
-
-            </div>
-
-        </div> <! end cta -->
-        
-    <!-- </section> -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
-
-            <div class="col-block stats__col ">
-                <div class="stats__count">
-                    15
-                </div>
-                <h4>Courses Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    1500
-                </div>
-                <h4>Cups of Coffee</h4>
-            </div>
-            <div class="col-block stats__col stats__col--highlight">
-                <div class="stats__upsign">
-                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-                <div class="stats__count">
-                    15
-                </div>
-                <h4>Projects Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    6
-                </div>
-                <h4>Total Internships</h4> 
-            </div>
-
-        </div>
-    </section> <!-- end s-stats -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Say Hello.</h1>
-                
-                <p class="lead">I am Arya Sekhar Bandopadhyay, an Undergraduate college student. I am open to conducting workshops or working on freelancing projects. Drop a text to know more !
-                    <br>For Emergency and Immediate Response, use the Chat Widget on the right !
-                </p>
-            </div>
-        </div>
-
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" method="post" action="mailto:aryasekharbandopadhyay@gmail.com">
-                    <fieldset>
-    
-                    <div class="form-field" name="name">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field" name="email">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field" name="subject">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field" name="message">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
-            </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Phone</h4>
-                <p>Phone: +918617020804<br>
-                Whatsapp: +918617020804<br>
-                
-                </p>
-
-                <h4 class="h06">Email</h4>
-                <p>arya@surakshacovid19.tech<br>
-                arya.bandopadhyay@studentpartner.com
-                </p>
-
-                <h4 class="h06">Address</h4>
-                <p>
-                Room-629, PF Hostel<br>
-                SRMIST, Kancheepuram Dist<br>
-                603203, India
-                </p>
-            </div>
-
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full">
-
-                <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
-                </div>
-
-                <ul class="footer-social">
-                    <li><a href="https://www.facebook.com/arya.banerjee.35">
-                        <i class="im im-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
-                    </a></li>
-                    
-                    <li><a href="https://www.instagram.com/aryasbandopadhyay/">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=918617020804&text=Thank%20you%20for%20connecting%20%21&source=&data=&app_absent=">
-                        <i class="im im-whatsapp" aria-hidden="true"></i>
-                        <span>Whatsapp</span>
-                    </a></li>
-                    <li><a href="https://www.github.com/aryasbandopadhyay">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>Github</span>
-                    </a></li>
-                    <li><a href="https://www.linkedin.com/in/arya-sekhar-bandopadhyay-0aa9ba172/">
-                        <i class="im im-linkedin" aria-hidden="true"></i>
-                        <span>LinkedIn</span>
-                    </a></li>
-                </ul>
-                    
-            </div>
-        </div>
-
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Arya Sekhar Bandopadhyay 2020</span> 
-                    	
-                </div>
-
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- end photoSwipe background -->
-
-    <div id="preloader">
-        <div id="loader"></div>
     </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Video Caption Generator</h3>
+                        <img src="images/hqdefault.jpg" class="img-responsive img-centered" alt="">
+                        <p>A video Caption Generating System built by breaking the video frame by frame and then localizing the objects in each frame. Finally the word embeddings are trained based on the objects detected.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Suraksha COVID19</h3>
+                        <img src="images/CEO-dashboard-geckoboard-2.png" class="img-responsive img-centered" alt="">
+                        <p>A covid Stats dashboard built with Flask and Python using upto date Stats and health centre locations, a self check module and all available helpline numbers statewise. We were interviewed by Zee News for the same.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
 
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5e982d0269e9320caac422f6/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
-</body>
-
-
+	</body>
 </html>
+
